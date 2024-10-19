@@ -33,3 +33,17 @@ The **Perceptron Trick** is a way to help the perceptron learn by improving its 
 In short, the perceptron trick is all about changing the weights step-by-step to make fewer mistakes and improve over time.
 
 
+## Step Function vs Activation Functions
+
+### Step Function:
+- Used for very simple tasks where the decision is binary (yes/no, 0/1, true/false).
+- Mainly used in early perceptron models where data patterns were **linear** and straightforward.
+- Since the step function only outputs **0 or 1**, it is not very flexible and doesn’t work well when the data has complex, non-linear relationships.
+
+### Activation Functions (like ReLU, Sigmoid, Tanh):
+- Used for **complex tasks** where the data is **non-linear** and has many patterns.
+- These functions are designed to handle large, complex datasets, which may have many variations.
+- Modern neural networks use these functions to **learn** and **adjust weights** based on intricate patterns in the data, which helps with tasks like **image recognition**, **speech processing**, etc.
+
+
+
