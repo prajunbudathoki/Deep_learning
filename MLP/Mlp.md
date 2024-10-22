@@ -27,6 +27,7 @@ A **Multilayer Perceptron (MLP)** is a type of artificial neural network commonl
 - **ReLU (Rectified Linear Unit)**: Helps introduce non-linearity and handles complex data.
 - **Sigmoid** and **Tanh**: Other popular activation functions that help in decision-making.
 
+In summary, MLP is a powerful tool for solving more complex tasks like classification, regression, and even recognizing images.
 
 
 
